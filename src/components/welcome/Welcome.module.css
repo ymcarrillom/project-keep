@@ -1,0 +1,61 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.button {
+  box-sizing: border-box;
+  width: 241px;
+  height: 34px;
+  top: 334px;
+  left: 600px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  gap: 4px;
+  margin-top: 1rem;
+  background: #18181b;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 241px;
+  height: 32px;
+  top: 290px;
+  left: 600px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  border-color: black;
+  border:solid 1px;
+  gap: 4px;
+}
+
+.welcomeText {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  padding-top: 100px;
+  
+}
+
+.label {
+  width: 241px;
+  height: 32px;
+  top: 290px;
+  left: 600px;
+  font-weight: 700;
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  border: 1px;
+  gap: 4px;
+}

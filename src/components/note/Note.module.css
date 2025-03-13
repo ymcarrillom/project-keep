@@ -1,0 +1,61 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 252px;
+    height: 226px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    position: relative;   
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #18181B;
+    margin-block: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.card__content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+.card__title:focus,
+.card__content:focus {
+    outline: none;
+}
+
+.card__actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.card__action {
+    margin: 0;
+    background-color: transparent;
+    padding-block: auto;
+    padding-inline: 0.4rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+}
+.card__action:active,
+.card__action:hover { 
+    background-color: rgba(229, 229, 229, 0.8);
+}
+
+.card__pinn {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+}
+

@@ -1,0 +1,11 @@
+.notes_container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-block: 1rem;
+}
+
+h2 {
+    text-align: left;
+}
