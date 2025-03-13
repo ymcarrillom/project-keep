@@ -31,7 +31,7 @@ function Welcome({ handleState }) {
 
   return (
     <>
-      <div className={styles.welcomeText}>Welcome to Codeable Keep</div>
+      <div className={styles.welcomeText}>Welcome to project Keep</div>
 
       <form className={styles.form} onSubmit={handleSubmit}>  
         <label className={styles.label} htmlFor="nombre">
